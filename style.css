@@ -1,0 +1,43 @@
+*{
+margin: 0 px;
+padding: 0 px;
+box-sizing: border-box;
+text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: rgb(249, 254, 249);
+}
+
+.dotted{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    color: rgb(245, 251, 245);
+    border-bottom: dotted;
+}
+.container form{
+    padding: 15px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(165, 165, 190);
+    border: 1px solid gray;
+}
+.container input{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 250px;
+}
+.btn{
+   margin-top: 10px;
+   text-align: left;
+}
+h5 a{
+    color: darkgreen;
+}
